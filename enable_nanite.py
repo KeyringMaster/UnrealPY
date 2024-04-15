@@ -34,3 +34,6 @@ for actor in actors:
             if not meshNaniteSettings.enabled:
                 meshNaniteSettings.enabled = True
                 unreal.StaticMeshEditorSubsystem().set_nanite_settings(staticMesh,meshNaniteSettings, apply_changes=True)
+
+
+
